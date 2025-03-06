@@ -9,5 +9,13 @@
 .App-footer {
   text-align: center;
   margin: 30px 0;
-  font-size: 12px;
+  font-size: 10px;
+}
+.App a {
+  text-decoration: none;
+  font-weight: bold;
+  color: black;
+}
+.App a:hover {
+  text-decoration: underline;
 }

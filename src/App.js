@@ -12,7 +12,32 @@ export default function App() {
         <main>
           <Dictionary />
         </main>
-        <footer className="App-footer">Coded by Saffron Williamson</footer>
+        <footer className="App-footer">
+          Coded by{' '}
+          <a
+            href="https://www.linkedin.com/in/saffron-williamson/"
+            target="_blank"
+            rel="noreferrer"
+          >
+            Saffron Williamson
+          </a>
+          , open sourced on{' '}
+          <a
+            href="https://github.com/SaffronWilliamson/dictionary-app-saffron-williamson"
+            target="_blank"
+            rel="noreferrer"
+          >
+            GitHib
+          </a>
+          , and hosted on{' '}
+          <a
+            href="https://dictionary-app-saffron-williamson.netlify.app/"
+            target="_blank"
+            rel="noreferrer"
+          >
+            Netlify
+          </a>
+        </footer>
       </div>
     </div>
   );
