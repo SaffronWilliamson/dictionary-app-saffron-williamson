@@ -1,12 +1,12 @@
-import React from "react";
+import React from 'react';
 
 export default function Example(props) {
   if (props.example) {
     return (
-      <div>
+      <p>
         <strong>Example: </strong>
         {props.example}
-      </div>
+      </p>
     );
   } else {
     return null;

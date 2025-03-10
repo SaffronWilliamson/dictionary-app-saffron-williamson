@@ -29,7 +29,7 @@ export default function Dictionary() {
   return (
     <div className="Dictionary">
       <h1 className="title">Dictionary</h1>
-      <section>
+      <section className="dictionary-form">
         <h3 className="titleQuestion">What world would you like to search?</h3>
         <form onSubmit={search}>
           <input
