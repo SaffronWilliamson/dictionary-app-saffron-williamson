@@ -4,8 +4,9 @@ export default function Example(props) {
   if (props.example) {
     return (
       <p>
-        <strong>Example: </strong>
-        {props.example}
+        <em>
+          {props.example.charAt(0).toUpperCase() + props.example.slice(1)}
+        </em>
       </p>
     );
   } else {

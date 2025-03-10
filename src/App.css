@@ -1,5 +1,10 @@
-body{
-  background-color: #ECE0E0;
+body {
+  background-color: #ece0e0;
+}
+.App main {
+  background-color: #f5eded;
+  padding: 10px 30px;
+  border-radius: 8px;
 }
 .App-header {
   margin: 30px 0;
@@ -21,4 +26,21 @@ body{
 }
 .App a:hover {
   text-decoration: underline;
+}
+
+@media screen and (max-width: 430px) {
+  .App main {
+    background-color: transparent;
+    margin-top: 0;
+    padding-top: 0;
+  }
+  .App-logo {
+    width: 150px;
+  }
+  .App-header {
+    margin: 20px 0 0 0;
+  }
+  .App-footer {
+    font-size: 8px;
+  }
 }
