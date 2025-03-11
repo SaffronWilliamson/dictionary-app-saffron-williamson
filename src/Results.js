@@ -1,6 +1,6 @@
 import React from 'react';
 import Meaning from './Meaning';
-import "./Results.css"
+import './Results.css';
 
 export default function Results(props) {
   if (props.results) {
@@ -13,9 +13,9 @@ export default function Results(props) {
 
         {props.results.meanings.map(function (meaning, index) {
           return (
-              <section key={index} className="results-meaning">
-                <Meaning meaning={meaning} />
-              </section>
+            <section key={index} className="results-meaning">
+              <Meaning meaning={meaning} />
+            </section>
           );
         })}
       </div>
