@@ -9,11 +9,12 @@
 i {
   width: 3%;
   background-color: #ece0e0;
-  padding: 13.5px 14px 14.5px 13px;
+  padding: 13.5px 14px 14px 13px;
   z-index: 0;
   position: relative;
   border-radius: 50px 0px 0px 50px;
   color: #696c6c;
+  font-size: 15px;
 }
 
 .Dictionary h1 {
@@ -36,6 +37,7 @@ i {
   font-weight: bold;
   border: none;
   z-index: 1;
+  font-size: 15px;
 }
 .suggestions {
   padding: 5px 30px 10px 60px;
