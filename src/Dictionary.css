@@ -75,11 +75,17 @@ i {
     font-size: 30px;
     padding: 10px 0;
   }
+  .Dictionary section {
+    padding: 70px 20px 100px 20px;
+  }
+  
 }
 
 @media screen and (min-width: 768px) {
   .Dictionary form {
     padding: 30px 30px 0 70px;
+    
+
   }
   .suggestions {
     padding: 5px 30px 10px 90px;

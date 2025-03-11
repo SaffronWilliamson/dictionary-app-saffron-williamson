@@ -1,5 +1,7 @@
 body {
   background-color: #ece0e0;
+  max-width: 960px;
+  margin: 0 auto;
 }
 .App main {
   background-color: #f5eded;
@@ -36,11 +38,14 @@ body {
   }
   .App-logo {
     width: 150px;
+    padding: 50px 0 30px 0;
   }
   .App-header {
     margin: 20px 0 0 0;
   }
   .App-footer {
     font-size: 8px;
+    margin-bottom: 10px;
+    padding-top: 200px;
   }
 }
